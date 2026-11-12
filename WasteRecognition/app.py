@@ -10,7 +10,10 @@ from recognition_errors import RecognitionError
 app = Flask(__name__)
 app.config["MAX_CONTENT_LENGTH"] = 11 * 1024 * 1024
 
-
+@app.get("/health")
+def health():
+    return jsonify({"status": "ok", "recognition_configured": bool(os.getenv("OPENAI_API_KEY"))})
+    
 @app.post('/v1/recognitions')
 def recognize_photo():
     upload = request.files.get("image")
