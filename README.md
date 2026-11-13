@@ -15,6 +15,10 @@ This README is the central guide for all four subsystems. Class diagrams use Mer
 | Jayesh Patil | 7225971 | 3 · [Regional rules and AI coach](#6-subsystem-c--regional-rules-and-ai-coach) | `Region`, `RecyclingRule`, `CoachExplanation` |
 | Rashi Jain | 7225974 | 4 · [Municipal dashboard](#7-subsystem-d--municipal-dashboard) | `Submission`, `DataFilter`, `WasteData` |
 
+## Team presentation
+
+**Video Link:** https://drive.google.com/file/d/1Fa7vFpXSf4fStpcIPZGk_4pgfdxTbFFR/view?usp=drive_link
+
 ## 1. Project structure and data flow
 
 | Subsystem | Directory | Role | Default address |
